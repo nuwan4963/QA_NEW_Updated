@@ -1,0 +1,30 @@
+"filename", "language", "JSON with Comments", "JavaScript", "HTML", "PostCSS", "YAML", "JavaScript JSX", "JSON", "Markdown", "XML", "comment", "blank", "total"
+"d:\QA project\qanew\.github\workflows\ci.yml", "YAML", 0, 0, 0, 0, 31, 0, 0, 0, 0, 13, 9, 53
+"d:\QA project\qanew\Backend\Backend.code-workspace", "JSON with Comments", 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13
+"d:\QA project\qanew\Backend\Controllers\authController.js", "JavaScript", 0, 43, 0, 0, 0, 0, 0, 0, 0, 2, 14, 59
+"d:\QA project\qanew\Backend\Controllers\festivalController.js", "JavaScript", 0, 55, 0, 0, 0, 0, 0, 0, 0, 4, 15, 74
+"d:\QA project\qanew\Backend\Model\Festival.js", "JavaScript", 0, 12, 0, 0, 0, 0, 0, 0, 0, 1, 3, 16
+"d:\QA project\qanew\Backend\Model\User.js", "JavaScript", 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 3, 28
+"d:\QA project\qanew\Backend\Routes\authRoutes.js", "JavaScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 4, 10
+"d:\QA project\qanew\Backend\Routes\festivalRoutes.js", "JavaScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 2, 7, 23
+"d:\QA project\qanew\Backend\package-lock.json", "JSON", 0, 0, 0, 0, 0, 0, 1646, 0, 0, 0, 1, 1647
+"d:\QA project\qanew\Backend\package.json", "JSON", 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 2, 27
+"d:\QA project\qanew\Backend\server.js", "JavaScript", 0, 15, 0, 0, 0, 0, 0, 0, 0, 2, 7, 24
+"d:\QA project\qanew\GlooveMap\README.md", "Markdown", 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 6, 13
+"d:\QA project\qanew\GlooveMap\eslint.config.js", "JavaScript", 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 2, 30
+"d:\QA project\qanew\GlooveMap\index.html", "HTML", 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 1, 14
+"d:\QA project\qanew\GlooveMap\package-lock.json", "JSON", 0, 0, 0, 0, 0, 0, 3866, 0, 0, 0, 1, 3867
+"d:\QA project\qanew\GlooveMap\package.json", "JSON", 0, 0, 0, 0, 0, 0, 34, 0, 0, 0, 1, 35
+"d:\QA project\qanew\GlooveMap\public\vite.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\QA project\qanew\GlooveMap\src\App.css", "PostCSS", 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 7, 45
+"d:\QA project\qanew\GlooveMap\src\App.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 18, 0, 0, 0, 0, 5, 23
+"d:\QA project\qanew\GlooveMap\src\assets\react.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+"d:\QA project\qanew\GlooveMap\src\components\Footer.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 43, 0, 0, 0, 0, 6, 49
+"d:\QA project\qanew\GlooveMap\src\components\Navbar.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 50, 0, 0, 0, 0, 10, 60
+"d:\QA project\qanew\GlooveMap\src\index.css", "PostCSS", 0, 0, 0, 7, 0, 0, 0, 0, 0, 1, 0, 8
+"d:\QA project\qanew\GlooveMap\src\main.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 3, 12
+"d:\QA project\qanew\GlooveMap\src\pages\CreateFesival.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 200, 0, 0, 0, 6, 30, 236
+"d:\QA project\qanew\GlooveMap\src\pages\Home.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 78, 0, 0, 0, 2, 12, 92
+"d:\QA project\qanew\GlooveMap\src\pages\Login.jsx", "JavaScript JSX", 0, 0, 0, 0, 0, 92, 0, 0, 0, 0, 11, 103
+"d:\QA project\qanew\GlooveMap\vite.config.js", "JavaScript", 0, 6, 0, 0, 0, 0, 0, 0, 0, 1, 5, 12
+"Total", "-", 13, 204, 13, 45, 31, 490, 5571, 7, 2, 34, 165, 6575

@@ -1,0 +1,55 @@
+#CI/CD stands for Continuous Integration (CI) and Continuous 
+#Delivery/Deployment (CD).
+#It is a process that helps developers deliver code changes more frequently and reliably.
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    services:
+      mongo: # if your backend uses MongoDB
+        image: mongo:6.0
+        ports:
+          - 27017:27017
+        options: >-
+          --health-cmd "mongosh --eval 'db.runCommand({ ping: 1 })'"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      # 1. Checkout code
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 2. Setup Node.js (for backend & frontend)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      # 3. Install & test backend
+      - name: Install Backend Dependencies
+        working-directory: ./Backend
+        run: |
+          npm install
+          npm test  # your backend unit tests
+
+      #4. Install & test frontend
+      - name: Install Frontend Dependencies
+        working-directory: ./GlooveMap
+        run: |
+          npm install
+          npm test -- --watchAll=false  # React tests (Jest)
+
+      # 5. Build frontend (optional: produce build output)
+      - name: Build Frontend
+        working-directory: ./GlooveMap
+        run: npm run build
