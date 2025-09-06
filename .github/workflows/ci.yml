@@ -44,12 +44,12 @@ jobs:
 
       #4. Install & test frontend
       - name: Install GlooveMap Dependencies
-        working-directory: ./GlooveMap
+        working-directory: ./GlooveMap/package.json
         run: |
           npm install
           npm test -- --watchAll=false  # React tests (Jest)
 
       # 5. Build frontend (optional: produce build output)
       - name: Build GlooveMap
-        working-directory: ./GlooveMap/
+        working-directory: ./GlooveMap/package.json
         run: npm run build
