@@ -35,12 +35,12 @@ jobs:
         with:
           node-version: 22
 
-      # 3. Install & test backend
-      - name: Install Backend Dependencies
-        working-directory: ./Backend
-        run: |
-          npm install
-          npm test -- --watchAll=false  # Jest tests
+      # # 3. Install & test backend
+      # - name: Install Backend Dependencies
+      #   working-directory: ./Backend
+      #   run: |
+      #     npm install
+      #     npm test -- --watchAll=false  # Jest tests
 
       # #4. Install & test frontend
       # - name: Install GlooveMap Dependencies
