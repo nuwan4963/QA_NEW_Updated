@@ -43,13 +43,13 @@ jobs:
           npm test  # your backend unit tests
 
       #4. Install & test frontend
-      - name: Install Frontend Dependencies
+      - name: Install GlooveMap Dependencies
         working-directory: ./GlooveMap
         run: |
           npm install
           npm test -- --watchAll=false  # React tests (Jest)
 
       # 5. Build frontend (optional: produce build output)
-      - name: Build Frontend
+      - name: Build GlooveMap
         working-directory: ./GlooveMap
         run: npm run build
