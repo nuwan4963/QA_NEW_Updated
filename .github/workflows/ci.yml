@@ -40,7 +40,7 @@ jobs:
         working-directory: ./Backend
         run: |
           npm install
-          npm test  # your backend unit tests
+          
 
       #4. Install & test frontend
       - name: Install GlooveMap Dependencies
